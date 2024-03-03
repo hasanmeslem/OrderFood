@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".thankyou">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THANK YOU , Your order will be served soon :)"
+            android:textColor="@color/white"
+            android:layout_marginTop="103dp"
+            android:id="@+id/textView9"
+        android:textSize="15sp"
+        android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="If you want to order anything else click menu"
+            android:layout_above="@+id/button11"
+            android:layout_alignEnd="@+id/textView9"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="49dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="90sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="93dp"
+        android:background="#ffbc7a"
+        android:textColor="@color/white"
+        android:onClick="main_menu"
+        android:text="Menu" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_marginLeft="250sp"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="93dp"
+        android:background="#ffbc7a"
+        android:textColor="@color/white"
+        android:text="Logout" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="412dp"
+        android:layout_height="295dp"
+        android:layout_marginTop="150sp"
+        app:srcCompat="@drawable/tyb" />
+
+</RelativeLayout>

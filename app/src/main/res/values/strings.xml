@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">OrderFood</string>
+
+    <string name="headm">My Restaurant Apps</string>
+    <string name="bodym">Special and Delicius Food</string>
+    <string name="btnreg">Register</string>
+    <string name="signinm">Sign in</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="signin">Signin</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="accept_all_terms_and_conditions">Accept all terms and conditions</string>
+    <string name="please_enter_your_table_number">Please enter your table number(1-25)</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="heading_one">Welcome to HM Restaurant</string>
+    <string name="heading_two">Order your taste meals</string>
+    <string name="heading_three">Swift Delivery</string>
+    <string name="heading_fourth">To your doorstep</string>
+
+
+    //Description
+    <string name="desc_one">If it does not taste good, it does not go on the menu</string>
+    <string name="desc_two"></string>
+    <string name="desc_three"></string>
+    <string name="desc_fourth"></string>
+
+
+
+</resources>
